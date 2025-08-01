@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar Servicio de Vigilancia</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Registrar Servicio de Vigilancia</h1>
+    <form>
+        <label>Cliente:</label>
+        <input type="text" name="cliente" required><br>
+
+        <label>Tipo de Servicio:</label>
+        <select name="tipo_servicio">
+            <option>Eventos y multitudes</option>
+            <option>Hogares</option>
+            <option>Fincas</option>
+        </select><br>
+
+        <label>Fecha Inicio:</label>
+        <input type="date" name="fecha_inicio"><br>
+
+        <label>Fecha Fin:</label>
+        <input type="date" name="fecha_fin"><br>
+
+        <label>Lugar:</label>
+        <input type="text" name="lugar"><br>
+
+        <label>Sexo Preferido del Vigilante:</label>
+        <select name="sexo_preferido">
+            <option>Indistinto</option>
+            <option>Masculino</option>
+            <option>Femenino</option>
+        </select><br>
+
+        <label>¿Requiere licencia de armas?</label>
+        <input type="checkbox" name="licencia_armas"><br>
+
+        <button type="submit">Registrar</button>
+    </form>
+</body>
+</html>

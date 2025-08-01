@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Auditorías por Evento</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Consultar Auditorías por Evento</h1>
+
+    <form id="buscarForm">
+        <label>Ingrese ID del Evento:</label>
+        <input type="number" id="id_evento" required>
+        <button type="submit">Buscar Auditorías</button>
+    </form>
+
+    <div id="resultado">
+        <h2>Resultados de Auditoría:</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID Auditoría</th>
+                    <th>Equipo</th>
+                    <th>Observación</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>21</td>
+                    <td>Gas Pimienta #5</td>
+                    <td>Equipo en buen estado, se usó una sola vez.</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>Arma 9mm #2</td>
+                    <td>Disparo realizado al aire, sin consecuencias visibles.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
